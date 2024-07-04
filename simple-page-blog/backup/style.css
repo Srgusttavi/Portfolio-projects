@@ -27,9 +27,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+
     background-color: #2E3340; /* Optional: Add background color to container */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Add shadow for better visibility */
     
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Add shadow for better visibility */
     box-sizing: border-box; /* Ensure padding is included in total height */
 }
 
@@ -42,6 +43,7 @@ header {
     width: 100%; /* Adjust width to 100% */
     max-width: 1236px; /* Optional: Control max width of the header */
     box-sizing: border-box;
+    margin-top: 10px;
 }
 
 .site-title {
@@ -117,9 +119,10 @@ hr {
 
 .cate, .pages{
     display: flex;
+    align-items: center;
 }
 
-.cate p, i{
+.cate button, i{
     margin: 0 0 0 25px;
     color: #909090;
     font-family: "Open Sans", sans-serif;
@@ -129,7 +132,18 @@ hr {
     font-variation-settings:
     "wdth" 100;
     font-size: 27px;
-    align-items: center;
+}
+
+.cate button:hover {
+    color: #ddd;
+}
+
+.cate i {
+    cursor: pointer;
+}
+
+.cate i:hover {
+    color: #ddd;
 }
 
 .articles-listing {
@@ -171,6 +185,10 @@ hr {
     font-style: normal;
     align-self: flex-start; /* Alinhar o título à esquerda */
     margin: 0;
+
+    color: #0F1217;
+
+    text-decoration: none;
 }
 
 .group-1 .desc {
@@ -197,7 +215,7 @@ hr {
 }
 
 
-.pages button {
+.pages .cate, button {
     color: #909090;
     background-color: transparent;
     font-family: "Open Sans", sans-serif;
@@ -227,6 +245,7 @@ footer {
     padding: 10px;
     width: 90%; /* Full width of the page */
     max-width: 1682px; /* Max width for the container */
+    margin: 10px 0 20px 0;
 }
 
 .footer-left {
@@ -256,6 +275,10 @@ footer {
     border-radius: 5px;
     text-decoration: none;
     font-size: 18px;
+}
+
+.twitter-follow i {
+    margin: 0;
 }
 
 footer a:hover {

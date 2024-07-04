@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+
+body {
+    --tw-bg-opacity: 1; 
+    background-color: rgb(23 23 23 / var(--tw-bg-opacity));
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: flex-start; /* Align content to the top of the page */
+    min-height: 100vh; /* Full viewport height */
+    color: whitesmoke;
+
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.container {
+    width:750px;
+}
+
+header .top-page {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+.nav-links {
+    justify-content: space-between;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+}
+
+.title {
+    margin: 25px 0 50px 0;
+}
+
+.title h1, p {
+    margin: 0;
+}
+
+.title h1{
+    font-size: 8rem;
+    color: white;
+}
+
+.tile p {
+    --tw-text-opacity: 1;
+    color: rgb(163 163 163 / var(--tw-text-opacity));
+}
+
+.content {
+    
+}
+
+.content a, h1 {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    margin: 0;
+}

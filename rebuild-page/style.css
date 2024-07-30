@@ -56,10 +56,6 @@ header .top-page {
     color: rgb(163 163 163 / var(--tw-text-opacity));
 }
 
-.content {
-    
-}
-
 .content a, h1 {
     font-size: 1.5rem;
     color: white;

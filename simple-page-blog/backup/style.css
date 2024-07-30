@@ -176,7 +176,13 @@ hr {
     height: auto;
     margin-bottom: 20px; /* Espaço abaixo da imagem */
     border-radius: 20px;
+    transition: .4s ease-in-out;
 }
+
+.group-1 img:hover {
+    transform: scale(1.05);
+    border: 2px solid purple;
+  }
 
 .group-1 .title-grid {
     font-size: 19px;
